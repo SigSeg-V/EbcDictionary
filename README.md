@@ -1,4 +1,4 @@
-# EbcDictionary
+# EbcDict
 *For when your hex dumps are way too large.*
 
 ## What's the point?
