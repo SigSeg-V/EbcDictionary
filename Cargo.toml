@@ -1,0 +1,2 @@
+[workspace]
+members = ["ebcdict_converter", "ebcdict_cli"]
