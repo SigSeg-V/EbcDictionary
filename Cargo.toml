@@ -1,2 +1,3 @@
 [workspace]
-members = ["ebcdict_converter", "ebcdict_cli"]
+members = ["ebcdict_converter", "ebcdict_cli", "ebcdict_gui"]
+resolver = "2"
