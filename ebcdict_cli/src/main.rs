@@ -3,7 +3,12 @@ use std::env;
 use ebcdict_converter::ebcdic_hex_to_ascii;
 
 fn main() {
-    let args: Vec<String> = env::args().collect();
+    let hex_string = parse_args(env::args().collect());
+    println!("{}", ebcdic_hex_to_ascii(hex_string));
+}
+
+fn parse_args(args: Vec<String>) -> String {
+    
     if args.len() <= 1 {
         panic!("Must enter a string for conversion")
     }
@@ -15,5 +20,5 @@ fn main() {
         hex_string += arg;
     }
 
-    println!("{}", ebcdic_hex_to_ascii(hex_string));
+    hex_string
 }
