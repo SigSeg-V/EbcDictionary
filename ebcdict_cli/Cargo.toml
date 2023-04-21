@@ -2,6 +2,14 @@
 name = "ebcdict"
 version = "0.1.0"
 edition = "2021"
+authors = ["Charlie Hutcheson <chaz.hutcheson@gmail.com>"]
+license = "GPL-3"
+description = "A tool to convert raw EBCDIC hex to human readable text."
+readme = "README.md"
+homepage = "https://github.com/Vxlnce/EbcDictionary"
+repository = "https://github.com/Vxlnce/EbcDictionary"
+keywords = ["cli", "translate", "convert"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
